@@ -1,0 +1,48 @@
+﻿@charset "utf-8";
+/* reset */
+html { height: 100% }
+body { min-height: 100% }
+body { _height: 100% }
+body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, iframe, pre, code, fieldset, legend, form, input, select, textarea, button, p, blockquote, th, td, figure { margin: 0; padding: 0 }
+body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, iframe, pre, code, fieldset, legend, form, p, blockquote, figure, header, footer, nav, article, section, aside, address, figcaption { *zoom: 1 }
+li { list-style-type: none }
+h1, h2, h3, h4, h5, h6 { font-size: 100% }
+iframe, frame, fieldset, img { border: 0 none }
+img { vertical-align: top }
+input[type=button], input[type=submit], input[type=reset] { cursor: pointer }
+button { cursor: pointer }
+input, textarea, button { -webkit-border-radius: 0; -webkit-appearance: none }
+input[type=radio] { -webkit-border-radius: 100%; -webkit-appearance: radio }
+input[type=checkbox] { -webkit-appearance: checkbox }
+input[type=search] { -webkit-box-sizing: content-box; -moz-box-sizing: content-box; -ms-box-sizing: content-box; -o-box-sizing: content-box; box-sizing: content-box }
+textarea { overflow: auto; resize: none }
+blockquote, q { quotes: none }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; content: none }
+table { border-collapse: collapse; border-spacing: 0 }
+caption, th { text-align: left }
+th { font-weight: normal }
+em, cite, address,i { font-style: normal }
+sup { vertical-align: text-top }
+sub { vertical-align: text-bottom }
+body, input, select, button, textarea { font-size: 14px; font-family:"Microsoft Yahei","微软雅黑",arial,"\5b8b\4f53";  }
+body { line-height: 1.5 }
+a { text-decoration: none;}
+a:hover { color:#d00000;}
+em{}
+a { blr:expression(this.onFocus=this.blur()); color:#000; }
+a * { *cursor: pointer }
+:focus { outline: none }
+
+
+
+/*所有后台编辑器区域都要引用 edit_con_original 类名*/
+
+/* clear 页头，页脚，内容区都不用再加清除样式 */
+.fixed:before, .clearfix:before, .cf:before, body:before, .header:before, .main:before, .footer:before { content: ''; display: table }
+.fixed:after, .clearfix:after, .cf:after, after, .header:after, .main:after, .footer:after { content: ''; display: table; clear: both }
+.fixed, .clearfix, .cf, .header, .main, .footer { *zoom: 1;}
+
+.clear, .cl { display: block!important; float: none!important; clear: both; width: auto!important; max-width: none!important; min-width: 0!important; max-height: none!important; min-height: 0!important; overflow: hidden; margin: 0!important; padding: 0!important; border: 0 none!important; font-size: 0!important; line-height: 0!important }
+
+/*公用样式end*/
+/*{filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#bbaf1f24", EndColorStr="#bbaf1f24")}*/
